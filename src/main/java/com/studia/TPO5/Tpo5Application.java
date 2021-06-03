@@ -17,7 +17,7 @@ public class Tpo5Application {
 	@Bean
 	CommandLineRunner runner(CarRepository repository){
 		return args -> {
-			repository.save(new Car("osobowy", "Fiat", 2015, 5.5));
+
 			repository.save(new Car("osobowy", "Renault", 2018, 6.5));
 			repository.save(new Car("osobowy", "BMW", 2020, 7));
 			repository.save(new Car("ciezarowy", "Volovo", 2013, 5));
